@@ -9,7 +9,7 @@ export default function NavBar(props) {
                 </a>
             </div>
             <div>
-                <a href="#/cart">Carro</a> <a href="#/signin">De Compras</a>
+                <h2>{props.image}</h2>
             </div>
         </header>
     );
