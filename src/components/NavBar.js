@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Header(props) {
+export default function NavBar(props) {
     return (
         <header className="row block center">
             <div>

@@ -1,16 +1,15 @@
-
-import Main from './components/Main';
-import Basket from './components/Basket';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
+import CartWidget from './components/CartWidget';
 
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <NavBar></NavBar>
       <div className="row">
-        <Main></Main>
-        <Basket></Basket>
+        <ItemListContainer></ItemListContainer>
+        <CartWidget></CartWidget>
       </div>
     </div>
   );
