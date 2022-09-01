@@ -9,7 +9,7 @@ export default function NavBar(props) {
                 </a>
             </div>
             <div>
-                <h2>{props.image}</h2>
+                <img src={props.image} width="100" height="100" alt="Carrito"/>
             </div>
         </header>
     );
